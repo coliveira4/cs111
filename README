@@ -1,0 +1,27 @@
+NAME: Daniel Schwartz, Christina Oliveira
+EMAIL: danielschwartz@engineering.ucla.edu, christina.oliveira.m@gmail.com
+ID: 704540685, 204803448
+
+CS111 Lab3a: File System Interpretation
+
+Included Files:
+
+lab3a.c: C source code that analyzes the file system in an image file and 
+	outputs a summary to standard out. This includes a superblock summary,
+	a group summary, the free block entries, the free inode entries, the inode
+	summary, directory entries, and indirect block references.
+
+ext2_fs.h: Header file used throughout lab3a.c which contains various
+	types to handle the ext2_FS. 
+
+Makefile: A makefile with the following targets:
+	default and 'lab3a': targets build the project using the -o and -g flags.
+    'dist': target creates the specified tarball with all the files for distibution.
+    'clean':  target deletes the executable so we can make a clean build
+
+README: A description of the included files and outside resources used (this file).
+
+
+Resources Consulted:
+
+http://www.nongnu.org/ext2-doc/ext2.html
